@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Journey</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!--Google Fonts CDN-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <!--Font Awesome CDN-->
+    <script
+      src="https://kit.fontawesome.com/ee4f7cdaa4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <span class="logo">Journey</span>
+        <div class="icons-plus-login">
+          <div class="icons">
+            <ul class="icons__list">
+              <li><i class="far fa-calendar-alt fa-lg"></i></li>
+              <li><i class="far fa-comments fa-lg"></i></li>
+              <li><i class="far fa-compass fa-lg"></i></li>
+            </ul>
+          </div>
+          <p class="login-text">
+            Welcome, <a href="#">Log In</a> or <a href="#">Sign Up</a>
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <form class="form">
+          <div class="form-heading">
+            <h3 id="formHead">Sign Up</h3>
+            <a class="logIn-bg" href="#">Log In</a>
+          </div>
+          <div class="social-btns">
+            <a href="#" class="social-btn facebook-btn"
+              ><i class="fab fa-facebook-f fa-2x"></i>
+              <p class="webSiteName">Facebook</p>
+            </a>
+            <a href="#" class="social-btn google-btn"
+              ><i class="fab fa-google-plus-g fa-2x"></i>
+              <p class="webSiteName">Google</p>
+            </a>
+          </div>
+          <span class="separator">or</span>
+          <div class="form-group">
+            <input type="text" name="name" class="inputs" placeholder="Name" />
+            <input
+              type="text"
+              name="lastname"
+              class="inputs"
+              placeholder="Last Name"
+            />
+            <input
+              type="email"
+              name="email"
+              class="inputs"
+              placeholder="Email"
+            />
+            <input
+              type="password"
+              name="password"
+              class="inputs"
+              placeholder="Choose Password"
+            />
+            <input
+              type="password"
+              name="confirm_password"
+              class="inputs"
+              placeholder="Confirm Password"
+            />
+            <input type="checkbox" name="gdpr_agree" id="gdpr_agree" />
+            <label for="gdpr_agree" id="gdpr_agree_id">
+              Agree our <a href="#" id="termsLink">Terms & Conditions</a>
+            </label>
+            <input type="submit" id="submit" value="Create Account" />
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
